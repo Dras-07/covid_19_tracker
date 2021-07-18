@@ -1,0 +1,137 @@
+
+.bg-blue {	
+	background: #2196f3;
+	color: white;
+	transition: 0.3s;
+}
+.bg-green {
+	background: rgb(0, 143, 43);
+	color: white;
+	transition: 0.3s;
+}
+.bg-pink {
+	background: rgb(196, 91, 152);
+	color: white;
+	transition: 0.3s;
+}
+.bg-red {
+	background: rgb(238, 19, 19);
+	color: white;
+	transition: 0.3s;
+}
+.bg-purple {
+	background: purple;
+	color: white;
+	transition: 0.3s;
+}
+
+
+.row justify-content-center{
+margin-top: auto;
+}
+
+#select{
+	padding: 8px 12px;
+	margin-top: 9px;
+	color: black;
+	background: white;
+	border-radius: 5px;
+	border: 2px solid black;
+	cursor: pointer;
+    font-weight: bold; 
+    
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-overflow: '';
+	
+}
+
+#select:hover{
+	outline:none;
+	border: 3px solid white;
+    background-color: black;
+	color: white;
+}
+.container{
+	font-weight: bolder;
+	text-align: center;
+}
+
+#videoBG{
+
+	background-size:auto;
+	position: fixed;
+	z-index: -1;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.heading{
+	color: white;
+    font-weight: bolder;
+	font-size: 76px;
+}
+.body{
+ align-content: center;
+}
+
+.wrapper{
+	margin-top: 75px;
+	padding-bottom: 20px;
+	text-align: center;
+	margin-right: 20px;
+	padding: 8px 12px;
+	margin-left: 40px;
+}
+.bg-blue:hover{
+	transform: scale(1.02);
+	color:white;
+	background: #2196f3;
+   box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+.bg-red:hover {
+	transform: scale(1.02);
+	color:white;
+	background: rgb(238, 19, 19);
+   box-shadow: 0 0 10px rgb(238, 19, 19),0 0 40px rgb(238, 19, 19),0 0 80px rgb(238, 19, 19);
+}
+.bg-purple:hover{
+
+	transform: scale(1.02);
+	
+	background:purple;
+	box-shadow: 0 0 10px  	purple,0 0 40px purple,0 0 80px purple;
+}
+.bg-pink:hover{
+	transform: scale(1.02);
+	background:  rgb(196, 91, 152);
+	box-shadow: 0 0 10px  rgb(196, 91, 152),0 0 40px  rgb(196, 91, 152),0 0 80px  rgb(196, 91, 152);
+}
+.bg-green:hover{
+	transform: scale(1.02);
+	background: rgb(0, 143, 43);
+	box-shadow: 0 0 10px rgb(0, 143, 43),0 0 40px rgb(0, 143, 43),0 0 80px rgb(0, 143, 43);
+}
+.heading2{
+	margin-top: 80px;
+	color: white;
+	font-weight: bolder;
+}
+
+#refresh {
+	width: 150px;
+	height: 40px;
+	font-size: large;
+	margin-top:20px ;
+	position:relative;
+	background-color: white;
+	color: black;
+	border-radius: 6px;
+	font-weight: bold;
+}
+#refresh:hover{
+	background-color: black;
+	color: white;   
+}
